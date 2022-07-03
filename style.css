@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.greenBox{
+    width: 500px;
+    height:300px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redBox{
+    width: 130px;
+    height: 130px;
+    background-color: red;
+    border-radius: 50%;
+    
+}
+.mainBox{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainBox1{
+    background-color: blue;
+    flex-basis: 33.3%;
+}
+.mainBox2{
+    background-color:red;
+    flex-basis: 33.3%;
+}
+.mainBox3{
+    background-color: yellow;
+    flex-basis: 33.3%;
+}
